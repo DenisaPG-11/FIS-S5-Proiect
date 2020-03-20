@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class ProcesorCompus implements Procesor {
     private ArrayList<Procesor> procesoare = new ArrayList<>();
 
-    public void adaugaProcesor(Procesor procesor) {
+    public void adaugaProcesorInLista(Procesor procesor) {
         procesoare.add(procesor);
     }
 
